@@ -1,0 +1,426 @@
+* {
+    font-family: 'Signika', sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    padding-bottom: 1000px;
+    /* overflow-y: hidden; */
+}
+
+.logo-img path {
+    fill: #fff;
+}
+
+.left-tab,
+.right-tab {
+    display: inline-block;
+}
+
+.left-tab {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    position: fixed;
+    /* background-color: blac;  */
+}
+
+
+
+.left-tab img {
+    position: relative;
+    width: 25px;
+    margin-right: 15%;
+    position: relative;
+}
+
+/* .left-tab h3 {
+    margin-bottom: 10PX;
+} */
+
+/* .library-tab, */
+.home-tab {
+    flex: 2;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    background-color: rgb(18, 18, 18);
+    border-radius: 10px;
+    margin: 2%;
+    padding: 15px;
+}
+
+.home-tab>div {
+    vertical-align: top;
+}
+
+.home-tab p {
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.home-tab img {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+/* .home-tab h3{
+    text-align:left;
+    padding-bottom: 10px;
+} */
+.home-tab p {
+    display: inline-block;
+
+}
+
+.right-tab .right-b {
+    flex: 9;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.library-tab {
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    gap: 1vw;
+    height: 73vh;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    margin-left: 2%;
+    /* border-bottom-left-radius: 50px; */
+}
+
+
+.banner-head {
+    padding: 0 25px;
+
+}
+
+.banner-head img {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 15px;
+
+    vertical-align: middle;
+}
+
+.banner-head p {
+    display: inline-block;
+    margin-right: 40px;
+
+}
+
+#add-library-icon {
+    margin: 0;
+    width: 18px;
+    position: absolute;
+    right: 19px;
+}
+
+
+.create {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+    gap: .8vw;
+    margin: 0%;
+    padding: 25px;
+    border-radius: 10px;
+    width: 75%;
+    margin-left: 8px;
+
+}
+
+
+
+.create-playlist {
+    color: black;
+    border-radius: 19px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: medium;
+}
+
+.lets-find {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+    gap: .8vw;
+    margin: 0%;
+    padding: 25px;
+    border-radius: 10px;
+    width: 75%;
+    margin-left: 8px;
+}
+
+.browse-podcasts {
+    color: black;
+    border-radius: 19px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: medium;
+}
+
+.english-tab {
+    flex: 7;
+    background-color: rgb(18, 18, 18);
+    position: absolute;
+    bottom: 10px;
+    padding: 40px;
+}
+
+.english-tab a {
+    text-decoration: none;
+    text-align: center;
+    font-size: x-small;
+    margin-right: 10px;
+    line-height: 40px;
+    color: rgb(139, 136, 136);
+
+
+}
+
+.button {
+    background: black;
+    width: 35%;
+    padding: 5px;
+    border: 2px solid rgb(40, 40, 40);
+    border-radius: 20px;
+
+}
+
+.button>img {
+    margin: 0;
+    width: 15px;
+
+}
+
+.button>p {
+    margin: 0;
+    width: 15px;
+    display: inline-block;
+
+}
+
+/* RIGHT TAB DESIGN */
+.header-bar {
+    position: fixed;
+    width: 85%;
+    right: 0;
+    background-color: rgba(18, 18, 18, 0.76);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+}
+
+.right-tab {
+    width: 85%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.nav-icon {
+    padding: 0 18px 0 18px;
+    width: 84%;
+    vertical-align: bottom;
+}
+
+.nav-icon img {
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.nav-icon,
+.login-section {
+    display: inline-block;
+}
+
+.login-section>a {
+    margin-right: 30px;
+    text-decoration: none;
+
+}
+
+.login {
+    color: black;
+    font-size: 20px;
+    padding: 10px 32px;
+    border-radius: 30px;
+
+}
+
+.heading1 {
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 15px;
+
+}
+
+.heading1 a b {
+    font-size: 29px;
+}
+.heading1 > a{
+    text-decoration: none;
+
+}
+
+span {
+    color: rgb(173, 173, 173);
+}
+
+
+.A1 {
+    display: inline-block;
+    height: 280px;
+    width: 198px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 4px;
+    margin: 25px 15px;
+    padding-top: 14px;
+    text-align: center;
+    z-index: 1;
+}
+
+.A1>img {
+    width: 180px;
+    border-radius: 4px;
+    /* z-index: -1; */
+}
+
+.A1>p {
+    text-align: left;
+    padding-left: 10px;
+    line-height: 28px;
+}
+
+.second-line {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 10px;
+    color: grey;
+}
+
+#bold {
+    font-weight: bolder;
+    color: #fff;
+}
+
+.footer {
+    display: inline-block;
+    vertical-align: top;
+    margin: 70px;
+
+}
+
+.footer-left {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+
+    width: 100%;
+}
+
+
+
+.footer li {
+    list-style: none;
+    line-height: 30px;
+    position: relative;
+    color: gray;
+}
+
+.media {
+    display: inline-block;
+    justify-content: space-between;
+    width: 180px;
+    margin: 60px 20px;
+    position: absolute;
+    right: 0;
+}
+
+.footer-right {
+
+    width: 15%;
+    margin: 0;
+    display: inline-block;
+
+
+
+}
+
+
+
+.social-media {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding: 16px 16px;
+    background-color: rgb(36, 36, 36);
+    justify-content: center;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.end {
+
+    height: 100px;
+    padding: 40px 0px;
+    border: 1px solid gray;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    margin: 0px 30px;
+}
+
+.end p {
+    color: gray;
+
+}
+
+.banner {
+    z-index: 5;
+    width: 100%;
+    bottom: 0;
+    /* height: 50px; */
+    position: fixed;
+    display: flex;
+    background: linear-gradient(to right, rgb(145, 20, 134), rgb(10, 178, 245));
+    padding: 10px 10px;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+/* .banner-text {
+    z-index: 1;
+} */
+.end-button {
+    color: black;
+    font-size: 15px;
+    padding: 9px 28px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 30px;
+
+
+}
