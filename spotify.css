@@ -91,7 +91,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1vw;
-    gap: 1vw;
+    /* gap: 1vw; */
     height: 73vh;
     position: relative;
     padding-top: 25px;
@@ -104,7 +104,7 @@ body {
 
 .banner-head {
     padding: 0 25px;
-
+    display: flex;
 }
 
 .banner-head img {
@@ -117,7 +117,9 @@ body {
 
 .banner-head p {
     display: inline-block;
-    margin-right: 40px;
+    /* margin-right: 40px; */
+    justify-content: center;
+
 
 }
 
@@ -179,7 +181,7 @@ body {
     background-color: rgb(18, 18, 18);
     position: absolute;
     bottom: 10px;
-    padding: 40px;
+    padding: 0 40px;
 }
 
 .english-tab a {
@@ -227,6 +229,8 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .right-tab {
@@ -238,7 +242,7 @@ body {
 
 .nav-icon {
     padding: 0 18px 0 18px;
-    width: 84%;
+    /* width: 84%; */
     vertical-align: bottom;
 }
 
@@ -280,7 +284,8 @@ body {
 .heading1 a b {
     font-size: 29px;
 }
-.heading1 > a{
+
+.heading1>a {
     text-decoration: none;
 
 }
